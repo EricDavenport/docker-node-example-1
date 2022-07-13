@@ -27,3 +27,8 @@ COPY . .
 EXPOSE 3000
 # the command to run our app
 CMD ["npm", "run", "start"]
+
+# docker build -t test-suite --target test .
+# docker build -t saucy-site --target prod .
+# docker run test-suite
+# docker run -p 3000:3000 saucy-site
