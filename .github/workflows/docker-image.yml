@@ -50,3 +50,4 @@ jobs:
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/docker-node-demo:latest
           # Sets the target stage to build
           target: prod
+
